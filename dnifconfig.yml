@@ -1,0 +1,3 @@
+enrichment_plugin:
+  BAMBENEK_DOMAIN_SOURCE: http://osint.bambenekconsulting.com/feeds/c2-dommasterlist.txt
+  BAMBENEK_IP_SOURCE: http://osint.bambenekconsulting.com/feeds/c2-ipmasterlist.txt
