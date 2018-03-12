@@ -1,4 +1,4 @@
-# Bambenek Consulting Feeds : http://osint.bambenekconsulting.com/feeds/
+## Bambenek Consulting Feeds http://osint.bambenekconsulting.com/feeds/
 ### License
 Use of Bambenek Consulting Feeds API is governed by the license here: http://osint.bambenekconsulting.com/license.txt
 
