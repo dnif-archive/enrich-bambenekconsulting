@@ -51,19 +51,19 @@ git clone https://github.com/dnif/enrich-bambenekconsulting.git bambenekconsulti
 ### API feed output structure
   | Fields        | Description  |
 | ------------- |:-------------:|
-| $EvtType      | An IP/Domain |
-| $EvtName      | The IOC      |
-| $IntelRef | Feed Name      |
-| $IntelRefURL | Feed URL      |
-| $ThreatType | DNIF Feed Identification Name |      
+| EvtType      | An IP/Domain |
+| EvtName      | The IOC      |
+| IntelRef | Feed Name      |
+| IntelRefURL | Feed URL      |
+| ThreatType | DNIF Feed Identification Name |      
 
 An example of API feed output
 ```
-{'$EvtType': 'DOMAIN',
-'$EvtName': 'simkov.com',
-'$AddFields': {
-'$IntelRefURL': ['http://osint.bambenekconsulting.com/manual/virut.txt'], 
-'$ThreatType': ['virutC&C'], 
-'$IntelRef': ['BAMBENEKCONSULTING']
+{'EvtType': 'DOMAIN',
+'EvtName': 'simkov.com',
+'AddFields': {
+'IntelRefURL': ['http://osint.bambenekconsulting.com/manual/virut.txt'], 
+'ThreatType': ['virutC&C'], 
+'IntelRef': ['BAMBENEKCONSULTING']
 }}
 ```
