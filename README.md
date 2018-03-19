@@ -31,10 +31,6 @@ There are two main category of the feeds provided
   - qakbot
  For more information on this feed go to: http://osint.bambenekconsulting.com/manual/c2-ipmasterlist.txt
 
-
-#### Contact Information
-- John Bambenek of Bambenek Consulting (jcb@bambenekconsulting.com // http://bambenekconsulting.com)
-
 ### Using the Bambenek Consulting feeds API
  The Bambenek Consulting feeds API is found on github at
 
