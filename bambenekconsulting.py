@@ -24,17 +24,17 @@ def import_domain_intel():
                 s = s.strip()
                 a = s.split(',')
                 tmp_dict = {}
-                tmp_dict["$EvtType"] = "DOMAIN"
-                tmp_dict["$EvtName"] = a[0]
+                tmp_dict["EvtType"] = "DOMAIN"
+                tmp_dict["EvtName"] = a[0]
                 tmp_dict2 = {}
-                tmp_dict2["$IntelRef"] = ["BAMBENEKCONSULTING"]
-                tmp_dict2["$IntelRefURL"] = [a[3]]
+                tmp_dict2["IntelRef"] = ["BAMBENEKCONSULTING"]
+                tmp_dict2["IntelRefURL"] = [a[3]]
                 b_lst = []
                 tmp_str = a[1]
                 tmp_type= tmp_str.split(" ")
                 b_lst.append(tmp_type[3]+"C&C")
-                tmp_dict2["$ThreatType"] = b_lst
-                tmp_dict["$AddFields"] = tmp_dict2
+                tmp_dict2["ThreatType"] = b_lst
+                tmp_dict["AddFields"] = tmp_dict2
                 lines.append(tmp_dict)
     except:
         lines = []
@@ -57,17 +57,17 @@ def import_ip_intel():
                 s = s.strip()
                 a = s.split(',')
                 tmp_dict = {}
-                tmp_dict["$EvtType"] = "IPv4"
-                tmp_dict["$EvtName"] = a[0]
+                tmp_dict["EvtType"] = "IPv4"
+                tmp_dict["EvtName"] = a[0]
                 tmp_dict2 = {}
-                tmp_dict2["$IntelRef"] = ["BAMBENEKCONSULTING"]
-                tmp_dict2["$IntelRefURL"] = [a[3]]
+                tmp_dict2["IntelRef"] = ["BAMBENEKCONSULTING"]
+                tmp_dict2["IntelRefURL"] = [a[3]]
                 b_lst = []
                 tmp_str = a[1]
                 tmp_type= tmp_str.split(" ")
                 b_lst.append(tmp_type[3]+tmp_type[4])
-                tmp_dict2["$ThreatType"] = b_lst
-                tmp_dict["$AddFields"] = tmp_dict2
+                tmp_dict2["ThreatType"] = b_lst
+                tmp_dict["AddFields"] = tmp_dict2
                 lines.append(tmp_dict)
     except:
         lines = []
