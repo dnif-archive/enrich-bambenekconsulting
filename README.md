@@ -31,6 +31,14 @@ There are two main category of the feeds provided
   - qakbot
  For more information on this feed go to: http://osint.bambenekconsulting.com/manual/c2-ipmasterlist.txt
 
+### PRE-REQUISITES to use Bambenek Consulting feeds API and DNIF  
+Outbound access required to request Bambenek Consulting feeds API
+
+| Protocol   | Source IP  | Source Port  | Direction	 | Destination Domain | Destination Port  |  
+|:------------- |:-------------|:-------------|:-------------|:-------------|:-------------|  
+| TCP | AD,A10 | Any | Egress	| github.com | 443 |
+| TCP | AD,A10 | Any | Egress	| osint.bambenekconsulting.com | 443 | 
+
 ### Using the Bambenek Consulting feeds API
  The Bambenek Consulting feeds API is found on github at
 
